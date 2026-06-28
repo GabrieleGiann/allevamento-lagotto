@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f6f1e7;
+}
+
+/* Focus visibile e accessibile da tastiera */
+:focus-visible {
+  outline: 3px solid #566b40;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Mappa con tono "earthy" coerente con la palette */
+.map-earthy {
+  filter: sepia(0.25) saturate(0.85) contrast(0.95) brightness(0.98);
+}
+
+/* Comparsa al primo scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.gallery-item {
+  transition: transform 0.35s ease, box-shadow 0.35s ease, opacity 0.3s ease;
+}
+.gallery-item:hover {
+  transform: translateY(-4px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
