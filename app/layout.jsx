@@ -77,7 +77,10 @@ const jsonLd = {
   areaServed: "Italia",
   address: {
     "@type": "PostalAddress",
+    streetAddress: "Piazza Michele Pironti, Piano",
+    addressLocality: "Montoro",
     addressRegion: siteConfig.region,
+    postalCode: "83025",
     addressCountry: "IT",
   },
   sameAs: [siteConfig.social.instagram, siteConfig.social.facebook],

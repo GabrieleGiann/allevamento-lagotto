@@ -4,14 +4,14 @@ import { siteConfig } from "@/lib/site-config";
 export default function Location() {
   const mapSrc = `https://www.google.com/maps?q=${encodeURIComponent(
     siteConfig.mapQuery
-  )}&z=9&output=embed`;
+  )}&z=15&output=embed`;
   return (
     <section id="dove-siamo" className="py-20 sm:py-28 bg-sand">
       <div className="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
         <Reveal className="order-2 lg:order-1">
           <div className="rounded-2xl overflow-hidden shadow-soft border-4 border-cream">
             <iframe
-              title="Mappa della zona dell'allevamento — colline dell'Emilia-Romagna"
+              title="Mappa dell'allevamento — Piazza Michele Pironti, Piano, Montoro (AV)"
               className="map-earthy w-full h-[340px] sm:h-[420px]"
               src={mapSrc}
               loading="lazy"
@@ -19,7 +19,7 @@ export default function Location() {
             />
           </div>
           <p className="mt-3 text-sm text-truffle/60">
-            Sostituisci con l&apos;indirizzo esatto del tuo allevamento per la mappa interattiva.
+            Ci troviamo in <strong>{siteConfig.address}</strong>. Riceviamo su appuntamento.
           </p>
         </Reveal>
 
@@ -29,9 +29,9 @@ export default function Location() {
             Dove Nascono i Nostri Lagotti: Nel Cuore della Cerca
           </h2>
           <p className="mt-5 text-truffle/80 text-lg leading-relaxed">
-            I nostri cani crescono tra le <strong>colline dell&apos;Emilia-Romagna</strong>, in un
-            territorio fatto di boschi, querce e sentieri umidi: l&apos;ambiente naturale del tartufo.
-            Qui i cuccioli imparano fin da piccoli a muoversi sul terreno reale, sviluppando fiuto,
+            Ci troviamo a <strong>Montoro, nel cuore dell&apos;Irpinia</strong>, in un territorio
+            fatto di boschi, querce e sentieri umidi: l&apos;ambiente naturale del tartufo. Qui i
+            cuccioli imparano fin da piccoli a muoversi sul terreno reale, sviluppando fiuto,
             sicurezza e quella complicità con l&apos;uomo che rende il Lagotto un compagno di cerca
             insostituibile.
           </p>
