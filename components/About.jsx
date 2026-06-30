@@ -9,15 +9,15 @@ export default function About() {
           Passione e Selezione, con Rispetto per gli Animali
         </h2>
         <p className="mt-6 text-truffle/80 text-lg leading-relaxed">
-          Siamo un <strong>allevamento amatoriale</strong> dove passione e selezione si incontrano.
-          Dedichiamo cura a un massimo di <strong>due cucciolate all&apos;anno</strong>, scegliendo
-          soggetti eccellenti per bellezza morfologica e attitudine al lavoro.
-        </p>
-        <p className="mt-4 text-truffle/80 text-lg leading-relaxed">
-          Addestriamo i nostri cani alla <strong>cerca del tartufo</strong>, trasformando l&apos;istinto
-          naturale in un&apos;abilità precisa; grazie a loro raccogliamo e, in via occasionale,
-          vendiamo <strong>tartufi freschi</strong> di altissima qualità. Serietà, rispetto per gli
-          animali e profonda conoscenza del territorio sono il nostro impegno di ogni giorno.
+          Benvenuti nel nostro allevamento amatoriale, dove passione e selezione si incontrano. Ci
+          dedichiamo con cura a massimo due cucciolate all&apos;anno, selezionando esemplari eccellenti
+          sia per bellezza morfologica che per attitudine al lavoro. Siamo specializzati
+          nell&apos;addestramento di cani da tartufo, trasformando l&apos;istinto naturale in
+          un&apos;abilità precisa. Grazie ai nostri ausiliari, raccogliamo e vendiamo tartufi freschi
+          come prestazione occasionale, garantendo un prodotto genuino e di altissima qualità.
+          Scegliere noi significa affidarsi a serietà, rispetto per gli animali e profonda conoscenza
+          del territorio. Contattaci per informazioni sui cuccioli disponibili o sulla vendita del
+          tartufo!
         </p>
       </Reveal>
     </section>

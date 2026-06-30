@@ -29,28 +29,6 @@ export default function Contact() {
                 <span className="font-semibold">{siteConfig.phone}</span>
               </span>
             </a>
-            <a href={`mailto:${siteConfig.email}`} className="flex items-center gap-3 group">
-              <span className="w-11 h-11 rounded-full bg-cream/10 flex items-center justify-center group-hover:bg-cream/20 transition-colors" aria-hidden="true">✉️</span>
-              <span>
-                <span className="block text-cream/60 text-xs uppercase tracking-wide">Email</span>
-                <span className="font-semibold">{siteConfig.email}</span>
-              </span>
-            </a>
-          </div>
-
-          <div className="mt-8 flex gap-3">
-            <a href={siteConfig.social.instagram} target="_blank" rel="noopener" aria-label="Seguici su Instagram" className="w-12 h-12 rounded-full bg-cream/10 hover:bg-cream/20 flex items-center justify-center transition-colors">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                <rect x="2" y="2" width="20" height="20" rx="5" />
-                <circle cx="12" cy="12" r="4" />
-                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
-              </svg>
-            </a>
-            <a href={siteConfig.social.facebook} target="_blank" rel="noopener" aria-label="Seguici su Facebook" className="w-12 h-12 rounded-full bg-cream/10 hover:bg-cream/20 flex items-center justify-center transition-colors">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-              </svg>
-            </a>
           </div>
         </Reveal>
 

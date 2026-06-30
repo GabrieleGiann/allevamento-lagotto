@@ -1,5 +1,3 @@
-import { siteConfig } from "@/lib/site-config";
-
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
@@ -8,9 +6,7 @@ export default function Footer() {
         <p className="font-heading text-cream text-base">
           🐾 Allevamento Lagotto Romagnolo da Tartufo
         </p>
-        <p>
-          &copy; {year} {siteConfig.kennelName}. Tutti i diritti riservati.
-        </p>
+        <p>&copy; {year} · Tutti i diritti riservati.</p>
       </div>
     </footer>
   );
