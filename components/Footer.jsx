@@ -9,7 +9,7 @@ export default function Footer() {
           🐾 Allevamento Lagotto Romagnolo da Tartufo
         </p>
         <p>
-          &copy; {year} {siteConfig.kennelName} — P.IVA {siteConfig.vat}. Tutti i diritti riservati.
+          &copy; {year} {siteConfig.kennelName}. Tutti i diritti riservati.
         </p>
       </div>
     </footer>

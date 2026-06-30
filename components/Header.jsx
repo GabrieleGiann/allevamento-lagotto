@@ -34,7 +34,8 @@ export default function Header() {
         </a>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-cream/90">
-          <a href="#gallery" className="hover:text-cream transition-colors">I nostri cani</a>
+          <a href="#chi-siamo" className="hover:text-cream transition-colors">Chi siamo</a>
+          <a href="#gallery" className="hover:text-cream transition-colors">Galleria</a>
           <a href="#dove-siamo" className="hover:text-cream transition-colors">Dove siamo</a>
           <a
             href="#contatti"
@@ -64,7 +65,8 @@ export default function Header() {
         className={`md:hidden bg-forest-dark/98 backdrop-blur border-t border-cream/10 ${menuOpen ? "" : "hidden"}`}
       >
         <div className="px-6 py-4 flex flex-col gap-1 text-cream">
-          <a href="#gallery" className="py-3 border-b border-cream/10" onClick={() => setMenuOpen(false)}>I nostri cani</a>
+          <a href="#chi-siamo" className="py-3 border-b border-cream/10" onClick={() => setMenuOpen(false)}>Chi siamo</a>
+          <a href="#gallery" className="py-3 border-b border-cream/10" onClick={() => setMenuOpen(false)}>Galleria</a>
           <a href="#dove-siamo" className="py-3 border-b border-cream/10" onClick={() => setMenuOpen(false)}>Dove siamo</a>
           <a href="#contatti" className="py-3 font-semibold" onClick={() => setMenuOpen(false)}>Contattaci</a>
         </div>
