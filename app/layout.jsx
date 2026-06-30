@@ -83,7 +83,6 @@ const jsonLd = {
     postalCode: "83025",
     addressCountry: "IT",
   },
-  sameAs: [siteConfig.social.instagram, siteConfig.social.facebook],
   knowsAbout: [
     "Lagotto Romagnolo",
     "Cani da tartufo",
